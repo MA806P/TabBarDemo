@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18D92C401D98C4F50095A7A6 /* BCTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D92C3F1D98C4F50095A7A6 /* BCTabBarController.m */; };
+		18D92C431D98C5290095A7A6 /* BCTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D92C421D98C5290095A7A6 /* BCTabBar.m */; };
 		DA9880871D9022C6006FB67C /* OneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA9880861D9022C6006FB67C /* OneViewController.m */; };
 		DA98808A1D9022D7006FB67C /* TwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA9880891D9022D7006FB67C /* TwoViewController.m */; };
 		DA98808D1D9022E7006FB67C /* ThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA98808C1D9022E7006FB67C /* ThreeViewController.m */; };
@@ -19,6 +21,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		18D92C3E1D98C4F50095A7A6 /* BCTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BCTabBarController.h; sourceTree = "<group>"; };
+		18D92C3F1D98C4F50095A7A6 /* BCTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BCTabBarController.m; sourceTree = "<group>"; };
+		18D92C411D98C5290095A7A6 /* BCTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BCTabBar.h; sourceTree = "<group>"; };
+		18D92C421D98C5290095A7A6 /* BCTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BCTabBar.m; sourceTree = "<group>"; };
 		DA9880851D9022C6006FB67C /* OneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OneViewController.h; sourceTree = "<group>"; };
 		DA9880861D9022C6006FB67C /* OneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OneViewController.m; sourceTree = "<group>"; };
 		DA9880881D9022D7006FB67C /* TwoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwoViewController.h; sourceTree = "<group>"; };
@@ -50,11 +56,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		18D92C3D1D98C4E20095A7A6 /* BCTabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				18D92C3E1D98C4F50095A7A6 /* BCTabBarController.h */,
+				18D92C3F1D98C4F50095A7A6 /* BCTabBarController.m */,
+				18D92C411D98C5290095A7A6 /* BCTabBar.h */,
+				18D92C421D98C5290095A7A6 /* BCTabBar.m */,
+			);
+			path = BCTabBarController;
+			sourceTree = "<group>";
+		};
 		DA9880811D90228B006FB67C /* TabBar */ = {
 			isa = PBXGroup;
 			children = (
 				DA9880821D90228B006FB67C /* ABTabBarController */,
-				DA9880831D90228B006FB67C /* BCTabBarController */,
+				18D92C3D1D98C4E20095A7A6 /* BCTabBarController */,
 			);
 			path = TabBar;
 			sourceTree = "<group>";
@@ -66,13 +83,6 @@
 				DA9880921D902310006FB67C /* ABTabBarController.m */,
 			);
 			path = ABTabBarController;
-			sourceTree = "<group>";
-		};
-		DA9880831D90228B006FB67C /* BCTabBarController */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = BCTabBarController;
 			sourceTree = "<group>";
 		};
 		DA9880841D90229A006FB67C /* Temp */ = {
@@ -198,6 +208,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18D92C431D98C5290095A7A6 /* BCTabBar.m in Sources */,
+				18D92C401D98C4F50095A7A6 /* BCTabBarController.m in Sources */,
 				DA9880901D9022F4006FB67C /* FourViewController.m in Sources */,
 				DA9880931D902310006FB67C /* ABTabBarController.m in Sources */,
 				DA9880961D90357C006FB67C /* NavigationController.m in Sources */,

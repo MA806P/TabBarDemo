@@ -58,3 +58,7 @@ fastlane/screenshots
 # https://github.com/johnno1962/injectionforxcode
 
 iOSInjectionProject/
+
+TabBarProject/.DS_Store
+
+TabBarProject/TabBarProject/TabBar/.DS_Store
