@@ -48,7 +48,7 @@
     
     UIViewController * vc =[self.tabBarController.viewControllers objectAtIndex:1];
     
-    vc.tabBarItem.badgeValue = btn.isSelected ? @"1" : nil;
+    vc.tabBarItem.badgeValue = btn.isSelected ? @"99+" : nil;
 }
 
 

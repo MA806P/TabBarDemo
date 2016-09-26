@@ -8,6 +8,14 @@
 
 #import <UIKit/UIKit.h>
 
+@protocol BCTabBarDelegate <NSObject>
+
+- (void)tabBarPlusButtonTouch;
+
+@end
+
 @interface BCTabBar : UITabBar
+
+@property (nonatomic, weak) id<BCTabBarDelegate> tabBarDeleage;
 
 @end

@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "ABTabBarController.h"
+#import "BCTabBarController.h"
 
 @interface AppDelegate ()
 
@@ -21,8 +22,9 @@
     
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     
-    ABTabBarController * vc = [[ABTabBarController alloc] init];
-    self.window.rootViewController = vc;
+    //ABTabBarController * tabbarController = [[ABTabBarController alloc] init];
+    BCTabBarController * tabbarController = [[BCTabBarController alloc] init];
+    self.window.rootViewController = tabbarController;
     
     [self.window makeKeyAndVisible];
     
